@@ -1,9 +1,5 @@
 const express = require("express");
 
-//const { MENU_LINKS } = require("../constants/navigation");
-//const { STATUS_CODE } = require("../constants/statusCode");
-//const productsSlice = require("../store/products");
-
 const router = express.Router();
 
 const productsController = require('../controllers/productsController');

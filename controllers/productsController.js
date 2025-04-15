@@ -54,6 +54,9 @@ const getProductView = (req, res) => {
 
   res.render('product.ejs', {
     headTitle: `Product: ${name}`,
+    path: "/:name",
+    activeLinkPath: "/products/:name",
+    menuLinks: MENU_LINKS,
     product
   });
 };
